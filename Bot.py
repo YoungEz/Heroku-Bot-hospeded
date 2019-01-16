@@ -178,4 +178,4 @@ async def flipcoin():
 	list = 'tapa na **CARA**', 'Rei perdeu a **COROA**'
 	await bot.say(random.choice(list))																								
 																																				
-bot.login('process.env.BOT_TOKEN')
+bot.login(process.env.BOT_TOKEN)
