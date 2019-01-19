@@ -7,3 +7,5 @@ Pymoe
 youtube_dl
 
 pip
+
+PyNaCl
