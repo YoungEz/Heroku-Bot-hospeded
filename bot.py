@@ -37,7 +37,25 @@ async def on_ready():
     print('Created by Utkarsh')
     client.loop.create_task(status_task())
 
+def is_owner(ctx):
 
+    return ctx.message.author.id == "420525168381657090, 395535610548322326"
+
+def is_dark(ctx):
+
+    return ctx.message.author.id == "420525168381657090"
+
+def is_shreyas(ctx):
+
+    return ctx.message.author.id == "376602841625919488"
+
+def is_gameworld(ctx):
+
+    return ctx.message.author.id == "402075464694366211"
+
+def is_ranger(ctx):
+
+    return ctx.message.author.id == "304911836460089345"
   
 
 @client.command(pass_context = True)
